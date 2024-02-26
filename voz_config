@@ -237,7 +237,7 @@ end}
 keybindsection:Keybind{
     Name = "UI Toggle",
     Flag = "UI Toggle",
-    Default = Enum.KeyCode.RightShift,
+    Default = Enum.KeyCode.RightControl,
     Blacklist = {Enum.UserInputType.MouseButton1, Enum.UserInputType.MouseButton2, Enum.UserInputType.MouseButton3},
     Callback = function(_, fromsetting)
         if not fromsetting then
