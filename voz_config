@@ -230,6 +230,10 @@ local save = configsection:Button{
 
 local keybindsection = configs:Section{Name = "UI Toggle Keybind", Side = "Left"}
 
+keybindsection:Button{Name = "Unload", Callback = function()
+    library:Unload()
+end}
+
 keybindsection:Keybind{
     Name = "UI Toggle",
     Flag = "UI Toggle",
