@@ -4757,3 +4757,5 @@ function library:CreateSettingsTab(menu)
 
     return settingsTab;
 end
+
+return library
